@@ -4,7 +4,7 @@ title:      Aims at Solving Problems Than Using Coolest Techniques
 subtitle:   something I learn from work
 date:       2018-06-23
 author:     Katherine Li
-header-img: img/post-bg-coffee.jpg
+header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:
     - work
@@ -14,7 +14,7 @@ tags:
 
 >Why do I still fail to achieve my goal even after trying the coolest deep learning algorithm?
 
-![](https://www.google.com/search?biw=1164&bih=545&tbm=isch&sa=1&ei=yBUvW6XJGuq1tgXF86rgCw&q=deep+learning+bad&oq=deep+learning+bad&gs_l=img.3...913.1177.0.1329.3.3.0.0.0.0.54.150.3.3.0....0...1c.1.64.img..0.2.106...0j0i30k1j0i8i30k1j0i24k1.0.wkSA14QuAP0#imgrc=LcjDdHuaZtTy8M:)
+![](https://images-na.ssl-images-amazon.com/images/I/61bCZRDe+RL._SL210_QL95_BG0,0,0,0_FMpng_.png)
 
 Well, I admitted that I had this confusion several times at work and study. After several failures and trials, I learn the hard way how important it is to understand our problem correctly up front.
 
@@ -36,7 +36,7 @@ The higher accuracy score we expect, or more complicated the problem is (such as
 ## Data Science is the Combination of Consulting with Coding
 
 >The reason why I am passionate about DS is that I can have the opportunity to explore both business and technology
-![](https://www.google.com/search?biw=1164&bih=545&tbm=isch&sa=1&ei=shQvW9KnBZLGsAXvq67ICg&q=data+science+and+consulting&oq=data+science+and+consulting&gs_l=img.3..0i24k1.69114.69447.0.69606.4.4.0.0.0.0.72.204.4.4.0....0...1c.1.64.img..0.1.72....0.PXEHtIQzsLY#imgrc=7q6P01PsUmph-M:)
+![](https://www.inmarketingwetrust.com.au/wp-content/uploads/2015/10/Data-Science-Chart.png)
 
 I understand that I might not be the one who focuses on developing the cutting-edge algorithms like someone in Google DeepMind dedicated in making a scientific breakthrough. I do really admire those talents, but it might not be my path at this point. 
 
