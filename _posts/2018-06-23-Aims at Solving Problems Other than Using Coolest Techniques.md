@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Aims at Solving Problems Than Using Coolest Techniques
+title:      Solving Problems Than Using Coolest Technique
 subtitle:   something I learn from work
 date:       2018-06-23
 author:     Katherine Li
