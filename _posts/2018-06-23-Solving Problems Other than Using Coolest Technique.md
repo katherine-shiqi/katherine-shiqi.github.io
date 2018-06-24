@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solving Problems Than Using Coolest Technique
-subtitle:   something I learn from work
+subtitle:   Something I Learn From Work
 date:       2018-06-23
 author:     Katherine Li
 header-img: img/post-bg-coffee.jpeg
