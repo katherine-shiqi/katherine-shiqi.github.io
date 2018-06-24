@@ -10,7 +10,7 @@ tags:
     - work
 ---
 
-## Understanding Problem Statement Isn't Just a Routine
+## Understanding Problem Isn't Just a Routine
 
 >Why do I still fail to achieve my goal even after trying the coolest deep learning algorithm?
 
