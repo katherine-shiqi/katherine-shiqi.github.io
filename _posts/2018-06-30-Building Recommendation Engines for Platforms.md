@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Building Recommendation Engines for Any Platforms
+title:      Building Recommendation Engines for Platforms
 subtitle:   prelogin and postlogin
 date:       2018-06-30
 author:     Katherine Li
