@@ -15,7 +15,7 @@ tags:
 You might have noticed or even purchased some items recommended by Amazon. Actually, there are several types of recommender systems on the website, before and after your logging in.
  
 **Pre-Login : Similar Items Recommendation** 
-![](https://cl.ly/3A130P3c3C0L)
+![](http://f.cl.ly/items/3E3C3I1e2y0I040g3X2c/1.png)
 
 When you searched for a MacBook with Touch Bar on Amazon, it will list all the similar laptops for you to make a purchase decision. This recommender doesn’t need your purchase history. 
 
