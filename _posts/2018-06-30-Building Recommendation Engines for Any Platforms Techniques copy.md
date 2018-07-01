@@ -20,11 +20,11 @@ You might have noticed or even purchased some items recommended by Amazon. Actua
 When you searched for a MacBook with Touch Bar on Amazon, it will list all the similar laptops for you to make a purchase decision. This recommender doesn’t need your purchase history. 
 
 **Pre-Login : Customers Who Bought This Also Bought** 
-![](https://cl.ly/3w2Y1Z0G3S1J)
+![](http://f.cl.ly/items/2n2L25460w2s2N113v2m/2.png)
 Based on other customers’ purchase history, this system will recommend related products, accessories in this case. Since if a customer bought a MacBook with Touch Bar, he probably won’t purchase another Mac, but an adapter instead. 
 
 **Post-Login: Peronalized Preference Recommender**
-![](https://cl.ly/2j2i1I0o0m2m)
+![](http://f.cl.ly/items/0f1y0v0u3Z3Z0I0C3J11/3.png)
 After your logging in, Amazon can leverage your purchase history to recommend items for you, which is more personalized. 
 
 Inspired by Amazon, I am going to generate three types of recommenders for a course platform.
@@ -56,15 +56,15 @@ Collaborative Filtering Recommender
 The common way to construct a ‘Customers who bought this item also bought’ algorithm is building a co-occurrence matrix. How does a co-occurrence matrix work? Let’s take an example.
 We have a user history data, indicating Alice has taken course 1, 2, 3, Charles for 3, and Bod for 3 and 4.
 
-![](https://cl.ly/2n183l2t2y0j)
+![](http://f.cl.ly/items/47393r410a3D2Z3P0Y2S/Screen%20Shot%202018-06-30%20at%2010.52.13%20PM.png)
 
 To compute a co-occurrence matrix based on table above, we count that for each course pair (let’s say course 1 and course 3), how many users have taken both those courses. The value for this pair is 2 people (Alice and Charles), and we fill that value into the matrix.
 
-![](https://cl.ly/1i1S2u2R1m36)
+![](http://f.cl.ly/items/0e2M3N3N283l0N3o000s/Screen%20Shot%202018-06-30%20at%2010.52.21%20PM.png)
 
 And then we do some normalization (I will skip those steps) to get the Normalized one. We could make a recommendation to a user based on that matrix. For example, if a user searched for course 3, then for the row course 3, the highest value will be 0.67 of course 1. Therefore, course 1 will be first recommended. Basically, the logic is that ‘Customers who bought this item also bought'.
 
-![](https://cl.ly/3G3M1Q3V0r1M)
+![](http://f.cl.ly/items/1o0F0Q041T0D13353t1r/Screen%20Shot%202018-06-30%20at%2010.52.36%20PM.png)
 
 I have posted partial code of that algorithm and generated a fake user history dataset to run it. 
 **click here to view the code ->**[JupyterNotebook](https://github.com/katherine-shiqi/Recommendation-Engine/blob/master/Recommender-TookAlsoTook.ipynb)
@@ -76,6 +76,6 @@ Collaborative Filtering Recommender System
 
 Sharing the same logic with the previous one, this model will be based on personal history data.
 For example, a user Katherine has taken course 2 and 3. Back to the co-occurrence matrix, I add up those two rows vertically to get a sum. Based on the value of the sum, I found course 4 has a higher value thus it will rank 1 in the recommender system. (The courses a user has taken will not be recommended.)
-![](https://cl.ly/0A0O3p321g2L)
+![](http://f.cl.ly/items/081G3j3L261x1o3m3O10/Screen%20Shot%202018-06-30%20at%2010.52.50%20PM.png)
 
 
