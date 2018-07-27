@@ -11,7 +11,7 @@ tags:
 ---
 I wanted to share some tricks or methods that I used for python projects. They are simple but I hope they can save your time from googling. 
 
-##1. Reduce the running time by multiprocessing/multithreading
+## 1. Reduce the running time by multiprocessing/multithreading
  
 
 The concept is to allocate tasks to different processors running in parallel if the algorithm is not sequential. 
@@ -101,7 +101,7 @@ Please let me know if you have better methods to conduct multiprocessing.
 
  
 
-##2. Connecting python with SQL database (get the data and push the data back)
+## 2. Connecting python with SQL database (get the data and push the data back)
  
 
 There are a lot of tutorials online about how to do the configuration to pull data from SQL server to your python program. I listed here for your information. 
@@ -144,7 +144,7 @@ conn = engine.connect()
 data = pd.read_sql_query('select * from table', conn)
 data.to_sql('tablename', con=engine, if_exists='append', index=False) 
 
-##3. Running code on AWS GPU
+## 3. Running code on AWS GPU
 
 (1) Key
 
